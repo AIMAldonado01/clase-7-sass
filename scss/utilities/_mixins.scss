@@ -1,0 +1,21 @@
+// MIXINS
+
+.section-1{
+    color: red;
+    background-color: blue;
+    @include background-principal();
+}
+
+// @mixin nombre{
+//     propiedades: valor;
+// }
+
+@mixin flex{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin background-principal{
+    background-color: brown;
+    color: white;
+}

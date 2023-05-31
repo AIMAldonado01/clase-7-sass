@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    padding: 20px;
+        nav{
+            ul{
+                display: flex;
+                list-style-type: none;
+                li{
+                    margin: 10px;
+                    a{
+                        text-decoration: none;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        color: black;
+                    }
+                }
+                #list-item{
+                    color: yellow;
+                }
+            }
+        }
+}
